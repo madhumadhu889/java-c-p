@@ -4,7 +4,7 @@ pipeline{
         stage('git scm')
         {
           steps{
-            git credentialsId: 'git-cred', url: 'https://github.com/lokiharsha/java-c-p.git'
+            git 'https://github.com/madhumadhu889/java-c-p.git'
           }
           
         }
